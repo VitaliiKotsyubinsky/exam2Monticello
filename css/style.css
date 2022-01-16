@@ -43,6 +43,43 @@ body {
           align-items: center;
   margin-left: 17px;
 }
+.header .header_menu-slider {
+  text-align: center;
+  margin-top: 200px;
+  font-family: "Montserrat";
+  position: relative;
+}
+.header .header_menu-slider h1 {
+  font-weight: bold;
+  font-size: 80px;
+  color: #ffff;
+  letter-spacing: 8px;
+  line-height: 140px;
+}
+.header .header_menu-slider h4 {
+  font-size: 18px;
+  letter-spacing: 5px;
+  word-spacing: 1px;
+}
+
+.header_menu-slider .slick-dots {
+  font-size: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-right: 52px;
+  font-size: 0px;
+}
+
+.slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.slick-list {
+  overflow: hidden;
+}
 
 .main_project-title {
   font-family: "Montserrat";

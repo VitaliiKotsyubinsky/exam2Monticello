@@ -1,3 +1,5 @@
-// $(document).ready(function () {
-//     $('.header_menu-slider').slick();
-// })
+$(document).ready(function () {
+    $('.header_menu-slider').slick({
+        dots: true
+    });
+})
